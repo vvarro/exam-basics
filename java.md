@@ -36,15 +36,16 @@ The application is accepted if:
 
 #### Your answer:
 [add your answer here]   
-1:   
-2:   
-3:   
-4:   
-5:   
-6:   
-7:   
-8:   
+1: method declaration  
+2: return type
+3: name of the method  
+4: type of the parameter  
+5: name of the parameter  
+6: a boolean variable [with values true or false]  
+7: body of the method  
+8: return value 
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+Constructor is a special type of method that is used to initialize the object.
+Java constructor is invoked at the time of object creation. It constructs the values i.e. provides data for the object that is why it is known as constructor.
