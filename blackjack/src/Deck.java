@@ -4,24 +4,26 @@ import java.util.Collections;
 import java.util.List;
 
 public class Deck {
-  private static final String[] COLORS = new String[] {"Clubs", "Diamonds", "Hearts", "Spades"};
-  private static final String[] VALUES = new String[] {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+  private static final String[] COLORS = new String[]{"Clubs", "Diamonds", "Hearts", "Spades"};
+  private static final String[] VALUES = new String[]{"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
   List<Card> cards;
 
   public Deck(int size) {
     cards = new ArrayList<>();
     Collections.shuffle(Arrays.asList(VALUES));
-      for (String value : VALUES) {
-        for (String color : COLORS) {
-        for (int i = 0; i < size; i++) {
-          cards.add(new Card(color, value));
+      for (int i = 0; i < size/4; i++) {
+        for (String color : COLORS)
+          cards.add(new Card(color, VALUES[i]));
         }
-      }
-    }
     Collections.shuffle(cards);
+    cards.toString();
   }
 
-  public void shuffle(){
+  public String toString(){
+    return cards.size() + " cards - " ;
+  }
+
+  public void shuffle() {
     Collections.shuffle(cards);
   }
 
