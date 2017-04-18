@@ -20,7 +20,6 @@ public class Copy {
     // Read all contents from it and write it to the destination
 
     Copy copy = new Copy();
-    copy.createTestFile();
     if (args.length == 0) {
       copy.printOutUsage();
     } else if (args[0].equals("copy") && args.length == 1) {
@@ -32,20 +31,6 @@ public class Copy {
 
   public static void printOutUsage() {
     System.out.println("copy [source] [destination]");
-  }
-
-  public static void createTestFile() {
-    PrintWriter writer = null;
-    try {
-      writer = new PrintWriter("theSourceFile.txt", "UTF-8");
-    } catch (FileNotFoundException e) {
-      e.printStackTrace();
-    } catch (UnsupportedEncodingException e) {
-      e.printStackTrace();
-    }
-    writer.println("The first line");
-    writer.println("The second line");
-    writer.close();
   }
 
   public static List<String> readInText(String[] args) {
