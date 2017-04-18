@@ -20,7 +20,7 @@ public class Copy {
     // Read all contents from it and write it to the destination
 
     Copy copy = new Copy();
-    copy.createTextFile();
+    copy.createTestFile();
     if (args.length == 0) {
       copy.printOutUsage();
     } else if (args[0].equals("copy") && args.length == 1) {
@@ -34,7 +34,7 @@ public class Copy {
     System.out.println("copy [source] [destination]");
   }
 
-  public static void createTextFile() {
+  public static void createTestFile() {
     PrintWriter writer = null;
     try {
       writer = new PrintWriter("theSourceFile.txt", "UTF-8");
