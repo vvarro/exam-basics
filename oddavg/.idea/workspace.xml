@@ -16,8 +16,8 @@
       <file leaf-file-name="OddAvg.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OddAvg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="68">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,9 +28,11 @@
       <file leaf-file-name="OddAvgTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/OddAvgTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OddAvg">
+  <component name="RunManager" selected="JUnit.OddAvgTest.testIsThereAnyOdd">
     <configuration default="false" name="OddAvg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="OddAvg" />
@@ -162,6 +164,69 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="oddavg" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="OddAvgTest.testIsItOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="oddavg" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OddAvgTest" />
+      <option name="METHOD_NAME" value="testIsItOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OddAvgTest.testIsOneOfItOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="oddavg" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OddAvgTest" />
+      <option name="METHOD_NAME" value="testIsOneOfItOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="OddAvgTest.testIsThereAnyOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="oddavg" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OddAvgTest" />
+      <option name="METHOD_NAME" value="testIsThereAnyOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -544,12 +609,18 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.OddAvg" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsItOdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsOneOfItOdd" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsThereAnyOdd" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.OddAvg" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsThereAnyOdd" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsOneOfItOdd" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OddAvgTest.testIsItOdd" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OddAvg" />
       </list>
     </recent_temporary>
   </component>
@@ -563,12 +634,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492499961134</updated>
-      <workItem from="1492499967614" duration="1998000" />
+      <workItem from="1492499967614" duration="4458000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 11m 58s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 12m 15s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 14m 36s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 18m 16s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 19m 56s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 22m 04s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 22m 42s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsItOdd - 2017.04.18 at 10h 23m 35s.xml">
+      <configuration name="OddAvgTest.testIsItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsOneOfItOdd - 2017.04.18 at 10h 25m 33s.xml">
+      <configuration name="OddAvgTest.testIsOneOfItOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OddAvgTest_testIsThereAnyOdd - 2017.04.18 at 10h 32m 04s.xml">
+      <configuration name="OddAvgTest.testIsThereAnyOdd" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1998000" />
+    <option name="totallyTimeSpent" value="4458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -583,13 +686,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4942717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0741301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -630,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OddAvg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,9 +743,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/OddAvgTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

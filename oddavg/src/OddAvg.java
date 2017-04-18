@@ -25,7 +25,11 @@ public class OddAvg {
         addOdd += numbers.get(i);
         oddCounter++;
       }
+    }
+    if (oddCounter > 0) {
       average = addOdd / oddCounter;
+    } else {
+      System.out.println("There are no odd numbers in the list!");
     }
     return average;
   }
